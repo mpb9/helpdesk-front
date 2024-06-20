@@ -1,0 +1,39 @@
+.Home {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.ticketForm {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.ticketForm input {
+  margin: 10px;
+  padding: 5px;
+  min-width: 350px;
+}
+
+.ticketForm textarea {
+  margin: 10px;
+  padding: 5px;
+  min-width: 350px;
+  min-height: 100px;
+}
+
+.ticketForm button {
+  margin: 10px;
+  padding: 5px;
+  min-width: 300px;
+  background-color: #282c34;
+  color: white;
+  border: none;
+}
+
+.ticketForm button:hover {
+  cursor: pointer;
+  background-color: #13a718;
+}
